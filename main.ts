@@ -3,13 +3,13 @@ import { createInterface } from 'node:readline';
 
 const FAST = 5;
 const PEAK_SPAN = 120;
-const DD_ENTRY_BPS = 70;
+const DD_ENTRY_BPS = 40;
 const TURN_BPS = 40;
-const TARGET_BPS = 200;
+const TARGET_BPS = 250;
 const TRAIL_ARM_BPS = 50;
 const TRAIL_BPS = 50;
 const STOP_BPS = 80;
-const MAX_HOLD = 120;
+const MAX_HOLD = 480;
 const COOLDOWN = 5;
 const BASE_WEIGHT = 8500n;
 const MIN_WEIGHT = 5000n;
